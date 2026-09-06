@@ -1,5 +1,5 @@
 import sys
-
+#推送
 input = sys.stdin.readline
 
 n = int(input())
