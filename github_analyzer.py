@@ -12,7 +12,7 @@ OUTPUT_DIR = Path("outputs")
 # 分支1
 # ---------- API 请求与错误转换 ----------
 def request_json(url, timeout=10):
-    """请求一个 JSON API，并返回 Python 字典112。"""
+    """请求一个 JSON API，并返回 Python 分支合并。"""
 
     # 请求头声明期望 GitHub JSON，并为本程序提供可识别的 User-Agent
     request = Request(
