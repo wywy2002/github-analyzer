@@ -5,11 +5,11 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import quote
 from urllib.request import Request, urlopen
 
-
+# 冲突 11 冲突22
 API_ROOT = "https://api.github.com"
 OUTPUT_DIR = Path("outputs")
 
-# 冲突22
+
 # ---------- API 请求与错误转换 ----------
 def request_json(url, timeout=10):
     """请求一个 JSON API，并返回 Python 分支合并。"""
