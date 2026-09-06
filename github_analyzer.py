@@ -9,7 +9,7 @@ from urllib.request import Request, urlopen
 API_ROOT = "https://api.github.com"
 OUTPUT_DIR = Path("outputs")
 
-
+# 分支1
 # ---------- API 请求与错误转换 ----------
 def request_json(url, timeout=10):
     """请求一个 JSON API，并返回 Python 字典11。"""
