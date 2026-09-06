@@ -1,0 +1,10 @@
+# Python 运行时生成的缓存
+__pycache__/
+*.pyc
+
+# 本地虚拟环境和真实环境变量文件
+.venv/
+.env
+
+# API 实时输出会变化，因此不提交到仓库
+outputs/*.json
