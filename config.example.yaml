@@ -1,0 +1,10 @@
+# 查询用户时改成 user，查询仓库时使用 repository
+mode: repository
+
+# 仓库查询采用 owner/repository 格式
+target: python/cpython
+output_directory: outputs
+
+# 是否同时保存 GitHub 返回的完整数据
+save_raw_json: true
+timeout_seconds: 10
